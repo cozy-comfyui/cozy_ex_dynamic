@@ -1,5 +1,7 @@
 # Example of Dynamic Inputs for ComfyUI
 
+![image](https://github.com/user-attachments/assets/6f5ac899-66ed-459b-8a61-5825f87853db)
+
 An example for how to do the specific mechanism of adding dynamic inputs to a node.
 
 ## Why is this a thing?
