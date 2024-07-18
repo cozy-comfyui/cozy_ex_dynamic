@@ -1,0 +1,15 @@
+[project]
+name = "cozy_ex_dynamic"
+description = "Dynamic Node examples for ComfyUI"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/cozy-comfyui/cozy_ex_dynamic"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "amorano"
+DisplayName = "cozy_ex_dynamic"
+Icon = ""

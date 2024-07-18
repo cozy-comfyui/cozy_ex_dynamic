@@ -1,0 +1,10 @@
+__pycache__
+*.py[cod]
+*$py.class
+_*
+*.code-workspace
+.vscode
+.env
+.DS_Store
+*.egg-info
+*.bak
