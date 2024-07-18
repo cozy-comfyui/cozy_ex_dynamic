@@ -28,3 +28,13 @@ There are no extra requirements.
 ## Dynamic Node (cozy)
 
 Multiple Inputs.
+
+## CONTRIBUTORS TO THIS CODE CONCEPT
+
+This example uses concepts and code constructs from various repositories. The contributions by these developers have made such exemplars possible. Please take a moment to look into their work or send them a thank you.
+
+## [Kijai](https://github.com/Kijai)
+
+## [pythongosssss](https://github.com/pythongosssss)
+
+## [melmass](https://github.com/melMass)
