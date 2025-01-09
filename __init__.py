@@ -4,7 +4,7 @@
 @category: Example
 @reference: https://github.com/cozy-comfyui/cozy_ex_dynamic
 @tags: dynamic, example, developer, script, mechanism, exemplar
-@description: Example of a Node with Dyanmic Inputs
+@description: Example of a Node with Dynamic Inputs
 @node list:
     CozyDynamicNode
 @version: 1.0.0

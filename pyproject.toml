@@ -11,5 +11,5 @@ Repository = "https://github.com/cozy-comfyui/cozy_ex_dynamic"
 
 [tool.comfy]
 PublisherId = "amorano"
-DisplayName = "cozy_comm"
+DisplayName = "cozy_ex_dynamic"
 Icon = ""
