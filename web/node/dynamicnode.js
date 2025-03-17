@@ -33,6 +33,11 @@ app.registerExtension({
             const me = onNodeCreated?.apply(this);
             // start with a new dynamic input
             this.addInput(_PREFIX, _TYPE);
+	    // Ensure the new slot has proper appearance
+            const slot = this.inputs[this.inputs.length - 1];
+            if (slot) {
+                slot.color_off = "#666";
+            }
             return me;
         }
 
@@ -82,6 +87,11 @@ app.registerExtension({
                 let last = this.inputs[this.inputs.length - 1];
                 if (last === undefined || (last.name != _PREFIX || last.type != _TYPE)) {
                     this.addInput(_PREFIX, _TYPE);
+		    // Set the unconnected slot to appear gray
+                    last = this.inputs[this.inputs.length - 1];
+                    if (last) {
+                        last.color_off = "#666";
+                    }
                 }
 
                 // force the node to resize itself for the new/deleted connections
