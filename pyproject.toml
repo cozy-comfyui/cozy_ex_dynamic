@@ -1,15 +1,29 @@
 [project]
 name = "cozy_ex_dynamic"
 description = "Dynamic Node examples for ComfyUI"
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
+readme = "README.md"
+authors = [{ name = "Alexander G. Morano", email = "amorano@gmail.com" }]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Developers",
+]
+requires-python = ">=3.11"
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/cozy-comfyui/cozy_ex_dynamic"
+Documentation = "https://github.com/cozy-comfyui/cozy_ex_dynamic/wiki"
 Repository = "https://github.com/cozy-comfyui/cozy_ex_dynamic"
-#  Used by Comfy Registry https://comfyregistry.org
+Issues = "https://github.com/cozy-comfyui/cozy_ex_dynamic/issues"
 
 [tool.comfy]
 PublisherId = "amorano"
 DisplayName = "cozy_ex_dynamic"
-Icon = ""
+Icon = "https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/refs/heads/master/res/logo-cozy-comfyui.png"
