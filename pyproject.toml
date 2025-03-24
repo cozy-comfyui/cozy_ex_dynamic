@@ -1,7 +1,7 @@
 [project]
 name = "cozy_ex_dynamic"
 description = "Dynamic Node examples for ComfyUI"
-version = "1.0.1"
+version = "1.0.2"
 license = { file = "LICENSE" }
 readme = "README.md"
 authors = [{ name = "Alexander G. Morano", email = "amorano@gmail.com" }]
@@ -25,5 +25,5 @@ Issues = "https://github.com/cozy-comfyui/cozy_ex_dynamic/issues"
 
 [tool.comfy]
 PublisherId = "amorano"
-DisplayName = "cozy_ex_dynamic"
+DisplayName = "Cozy Dynamic"
 Icon = "https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/refs/heads/master/res/logo-cozy-comfyui.png"

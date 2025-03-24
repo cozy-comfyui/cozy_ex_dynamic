@@ -87,7 +87,7 @@ app.registerExtension({
                 let last = this.inputs[this.inputs.length - 1];
                 if (last === undefined || (last.name != _PREFIX || last.type != _TYPE)) {
                     this.addInput(_PREFIX, _TYPE);
-		    // Set the unconnected slot to appear gray
+		            // Set the unconnected slot to appear gray
                     last = this.inputs[this.inputs.length - 1];
                     if (last) {
                         last.color_off = "#666";
