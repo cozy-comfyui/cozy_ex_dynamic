@@ -69,7 +69,11 @@ app.registerExtension({
                 let slot_tracker = {};
                 for(const slot of this.inputs) {
                     if (slot.link === null) {
-                        this.removeInput(idx);
+                        try {
+                            this.removeInput(idx);
+                        } catch {
+
+                        }
                         continue;
                     }
                     idx += 1;

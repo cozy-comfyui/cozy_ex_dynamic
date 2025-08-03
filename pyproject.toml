@@ -1,7 +1,7 @@
 [project]
 name = "cozy_ex_dynamic"
 description = "Dynamic Node examples for ComfyUI"
-version = "1.0.2"
+version = "1.0.4"
 license = { file = "LICENSE" }
 readme = "README.md"
 authors = [{ name = "Alexander G. Morano", email = "amorano@gmail.com" }]

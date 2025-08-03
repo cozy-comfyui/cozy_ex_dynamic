@@ -7,10 +7,10 @@
 @description: Example of a Node with Dynamic Inputs
 @node list:
     CozyDynamicNode
-@version: 1.0.0
+@version: 1.0.4
 """
 
-from typing import Any, Dict, Tuple
+from typing import Any, Dict
 
 # =============================================================================
 # === GLOBAL ===
@@ -25,7 +25,7 @@ __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS", "WEB_DIRECTORY"]
 # === NODE ===
 # =============================================================================
 
-class DynamicNodeCozy:
+class DynamicNodeCozy():
     """
     A class to represent a dynamic node in ComfyUI.
     """
@@ -41,7 +41,7 @@ class DynamicNodeCozy:
             "optional": {}
         }
 
-    def run(self, **kw) -> Tuple[Any | None]:
+    def run(self, **kw) -> tuple[Any | None]:
         # the dynamically created input data will be in the dictionary kwargs
         #for k, v in kw.items():
         #    print(f'{k} => {v}')
